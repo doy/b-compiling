@@ -8,6 +8,8 @@ our $VERSION = '0.02';
 use B;
 use XSLoader;
 
+use B::Compiling::COP;
+
 XSLoader::load(__PACKAGE__, $VERSION);
 
 use Sub::Exporter -setup => {
